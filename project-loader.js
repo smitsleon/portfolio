@@ -154,9 +154,9 @@
         "category": "graphic",
         "description": "Vul hier een korte beschrijving in (context, doel en jouw rol).",
         "images": [
-          "assets/images/graphic-design/typo-poster/front.png",
-          "assets/images/graphic-design/typo-poster/mockup-poster.png",
-          "assets/images/graphic-design/typo-poster/mockup-poster1.png"
+          "assets/images/graphic-design/typo-poster/front.webp",
+          "assets/images/graphic-design/typo-poster/mockup-poster.webp",
+          "assets/images/graphic-design/typo-poster/mockup-poster1.webp"
         ]
       },
       {
