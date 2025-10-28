@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Work - Leon Smits Portfolio</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="nav">
+        <div class="nav__container">
+            <a href="index.html" class="nav__logo">Leon Smits</a>
+            <button class="nav__hamburger" aria-label="Menu" aria-controls="primary-navigation" aria-expanded="false">
+                <span class="nav__hamburger-bar"></span>
+                <span class="nav__hamburger-bar"></span>
+                <span class="nav__hamburger-bar"></span>
+            </button>
+            <ul class="nav__menu" id="primary-navigation">
+                <li class="nav__item">
+                    <a href="index.html" class="nav__link">Home</a>
+                </li>
+                <li class="nav__item">
+                    <a href="about.html" class="nav__link">About Me</a>
+                </li>
+                <li class="nav__item">
+                    <a href="work.html" class="nav__link nav__link--active">My Work</a>
+                </li>
+                <li class="nav__item">
+                    <a href="contact.html" class="nav__link">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1 class="page-header__title">My Work</h1>
+            <p class="page-header__subtitle">A selection of my projects in graphic design and web development</p>
+        </div>
+    </section>
+
+    <!-- Work Filter -->
+    <section class="work-page">
+        <div class="container">
+            <div class="work-page__filter">
+                <!-- Updated filter buttons -->
+                <button class="work-page__filter-btn work-page__filter-btn--active" data-filter="all">All
+                    Projects</button>
+                <button class="work-page__filter-btn" data-filter="graphic">Graphic Design</button>
+                <button class="work-page__filter-btn" data-filter="web">Web Development</button>
+            </div>
+
+            <!-- Project Cards Grid -->
+            <div class="work-page__grid">
+
+                <!-- Web Development -->
+                <a class="project-card" data-category="web" href="project-detail.html?id=receptenweb"
+                    aria-label="View project receptenweb">
+                    <div class="project-card__image">
+                        <img src="assets/images/receptenweb/recipewebsite-light.webp" alt="receptenweb thumbnail">
+                        <div class="project-card__overlay">
+                            <div class="project-card__overlay-content">
+                                <span class="project-card__overlay-text">See more...</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-card__content">
+                        <div class="project-card__header">
+                            <h3 class="project-card__title">receptenweb</h3>
+                            <span class="project-card__category-label">Web Development</span>
+                        </div>
+                    </div>
+                </a>
+
+                <a class="project-card" data-category="web" href="project-detail.html?id=small-application"
+                    aria-label="View project small-application">
+                    <div class="project-card__image">
+                        <img src="assets/images/small-application/small-application1.webp"
+                            alt="small-application thumbnail">
+                        <div class="project-card__overlay">
+                            <div class="project-card__overlay-content">
+                                <span class="project-card__overlay-text">See more...</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-card__content">
+                        <div class="project-card__header">
+                            <h3 class="project-card__title">small-application</h3>
+                            <span class="project-card__category-label">Web Development</span>
+                        </div>
+                    </div>
+                </a>
+
+                <a class="project-card" data-category="web" href="project-detail.html?id=boudewijn"
+                    aria-label="View project boudewijn">
+                    <div class="project-card__image">
+                        <img src="assets/images/boudewijn/boudewijn.png" alt="boudewijn thumbnail">
+                        <div class="project-card__overlay">
+                            <div class="project-card__overlay-content">
+                                <span class="project-card__overlay-text">See more...</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-card__content">
+                        <div class="project-card__header">
+                            <h3 class="project-card__title">boudewijn</h3>
+                            <span class="project-card__category-label">Web Development</span>
+                        </div>
+                    </div>
+                </a>
+
+                <!-- Graphic Design -->
+                <a class="project-card" data-category="web" href="project-detail.html?id=no-planetb"
+                    aria-label="View project no-planetb">
+                    <div class="project-card__image">
+                        <img src="assets/images/no-planetb/no-planet-b.webp" alt="no-planetb thumbnail">
+                        <div class="project-card__overlay">
+                            <div class="project-card__overlay-content">
+                                <span class="project-card__overlay-text">See more...</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-card__content">
+                        <div class="project-card__header">
+                            <h3 class="project-card__title">no-planetb</h3>
+                            <span class="project-card__category-label">Web Development</span>
+                        </div>
+                    </div>
+                </a>
+
+                <a class="project-card" data-category="web" href="project-detail.html?id=stam"
+                    aria-label="View project stam">
+                    <div class="project-card__image">
+                        <img src="assets/images/stam/stam.webp" alt="stam thumbnail">
+                        <div class="project-card__overlay">
+                            <div class="project-card__overlay-content">
+                                <span class="project-card__overlay-text">See more...</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-card__content">
+                        <div class="project-card__header">
+                            <h3 class="project-card__title">stam</h3>
+                            <span class="project-card__category-label">Web Development</span>
+                        </div>
+                    </div>
+                </a>
+
+                <a class="project-card" data-category="web" href="project-detail.html?id=bestof-2024"
+                    aria-label="View project bestof-2024">
+                    <div class="project-card__image">
+                        <img src="assets/images/bestof-2024/bestof2024.webp" alt="bestof-2024 thumbnail">
+                        <div class="project-card__overlay">
+                            <div class="project-card__overlay-content">
+                                <span class="project-card__overlay-text">See more...</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-card__content">
+                        <div class="project-card__header">
+                            <h3 class="project-card__title">bestof-2024</h3>
+                            <span class="project-card__category-label">Web Development</span>
+                        </div>
+                    </div>
+                </a>
+
+                <a class="project-card" data-category="graphic" href="project-detail.html?id=cajamarca"
+                    aria-label="View project cajamarca">
+                    <div class="project-card__image">
+                        <img src="assets/images/graphic-design/cajamarca/front.png" alt="cajamarca thumbnail">
+                        <div class="project-card__overlay">
+                            <div class="project-card__overlay-content">
+                                <span class="project-card__overlay-text">See more...</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-card__content">
+                        <div class="project-card__header">
+                            <h3 class="project-card__title">cajamarca</h3>
+                            <span class="project-card__category-label">Graphic Design</span>
+                        </div>
+                    </div>
+                </a>
+
+                <a class="project-card" data-category="graphic" href="project-detail.html?id=handelsbeurs"
+                    aria-label="View project handelsbeurs">
+                    <div class="project-card__image">
+                        <img src="assets/images/graphic-design/handelsbeurs/cover.png" alt="handelsbeurs thumbnail">
+                        <div class="project-card__overlay">
+                            <div class="project-card__overlay-content">
+                                <span class="project-card__overlay-text">See more...</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-card__content">
+                        <div class="project-card__header">
+                            <h3 class="project-card__title">handelsbeurs</h3>
+                            <span class="project-card__category-label">Graphic Design</span>
+                        </div>
+                    </div>
+                </a>
+
+                <a class="project-card" data-category="graphic" href="project-detail.html?id=humboldt-honing"
+                    aria-label="View project humboldt-honing">
+                    <div class="project-card__image">
+                        <img src="assets/images/graphic-design/humboldt-honing/mockup-pot.png"
+                            alt="humboldt-honing thumbnail">
+                        <div class="project-card__overlay">
+                            <div class="project-card__overlay-content">
+                                <span class="project-card__overlay-text">See more...</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-card__content">
+                        <div class="project-card__header">
+                            <h3 class="project-card__title">humboldt-honing</h3>
+                            <span class="project-card__category-label">Graphic Design</span>
+                        </div>
+                    </div>
+                </a>
+
+                <a class="project-card" data-category="graphic" href="project-detail.html?id=sn-trackers"
+                    aria-label="View project sn-trackers">
+                    <div class="project-card__image">
+                        <img src="assets/images/graphic-design/sn-trackers/logo.png" alt="sn-trackers thumbnail">
+                        <div class="project-card__overlay">
+                            <div class="project-card__overlay-content">
+                                <span class="project-card__overlay-text">See more...</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-card__content">
+                        <div class="project-card__header">
+                            <h3 class="project-card__title">sn-trackers</h3>
+                            <span class="project-card__category-label">Graphic Design</span>
+                        </div>
+                    </div>
+                </a>
+
+                <a class="project-card" data-category="graphic" href="project-detail.html?id=tagmag"
+                    aria-label="View project tagmag">
+                    <div class="project-card__image">
+                        <img src="assets/images/graphic-design/tagmag/logo.png" alt="tagmag thumbnail">
+                        <div class="project-card__overlay">
+                            <div class="project-card__overlay-content">
+                                <span class="project-card__overlay-text">See more...</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-card__content">
+                        <div class="project-card__header">
+                            <h3 class="project-card__title">tagmag</h3>
+                            <span class="project-card__category-label">Graphic Design</span>
+                        </div>
+                    </div>
+                </a>
+
+                <a class="project-card" data-category="graphic" href="project-detail.html?id=typo-poster"
+                    aria-label="View project typo-poster">
+                    <div class="project-card__image">
+                        <img src="assets/images/graphic-design/typo-poster/front.png" alt="typo-poster thumbnail">
+                        <div class="project-card__overlay">
+                            <div class="project-card__overlay-content">
+                                <span class="project-card__overlay-text">See more...</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-card__content">
+                        <div class="project-card__header">
+                            <h3 class="project-card__title">typo-poster</h3>
+                            <span class="project-card__category-label">Graphic Design</span>
+                        </div>
+                    </div>
+                </a>
+
+                <a class="project-card" data-category="web" href="project-detail.html?id=jammin"
+                    aria-label="View project jammin">
+                    <div class="project-card__image">
+                        <img src="assets/images/jammin/jammin-1.png" alt="jammin thumbnail">
+                        <div class="project-card__overlay">
+                            <div class="project-card__overlay-content">
+                                <span class="project-card__overlay-text">See more...</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-card__content">
+                        <div class="project-card__header">
+                            <h3 class="project-card__title">jammin</h3>
+                            <span class="project-card__category-label">Web Development</span>
+                        </div>
+                    </div>
+                </a>
+
+                <a class="project-card" data-category="graphic" href="project-detail.html?id=graduaat-programmeren"
+                    aria-label="View project graduaat-programmeren">
+                    <div class="project-card__image">
+                        <img src="assets/images/graphic-design/graduaat-programmeren/finale-poster-wit.png"
+                            alt="graduaat-programmeren thumbnail">
+                        <div class="project-card__overlay">
+                            <div class="project-card__overlay-content">
+                                <span class="project-card__overlay-text">See more...</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-card__content">
+                        <div class="project-card__header">
+                            <h3 class="project-card__title">graduaat-programmeren</h3>
+                            <span class="project-card__category-label">Graphic Design</span>
+                        </div>
+                    </div>
+                </a>
+
+                <a class="project-card" data-category="graphic" href="project-detail.html?id=festival-loops"
+                    aria-label="View project festival-loops">
+                    <div class="project-card__image">
+                        <img src="assets/images/graphic-design/festival-loops/festival-loops-screenshot2.png"
+                            alt="festival-loops thumbnail">
+                        <div class="project-card__overlay">
+                            <div class="project-card__overlay-content">
+                                <span class="project-card__overlay-text">See more...</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-card__content">
+                        <div class="project-card__header">
+                            <h3 class="project-card__title">festival-loops</h3>
+                            <span class="project-card__category-label">Graphic Design</span>
+                        </div>
+                    </div>
+                </a>
+
+                <a class="project-card" data-category="graphic" href="project-detail.html?id=super-sauvage"
+                    aria-label="View project super-sauvage">
+                    <div class="project-card__image">
+                        <img src="assets/images/graphic-design/super-sauvage/folder-cover.png"
+                            alt="super-sauvage thumbnail">
+                        <div class="project-card__overlay">
+                            <div class="project-card__overlay-content">
+                                <span class="project-card__overlay-text">See more...</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-card__content">
+                        <div class="project-card__header">
+                            <h3 class="project-card__title">super-sauvage</h3>
+                            <span class="project-card__category-label">Graphic Design</span>
+                        </div>
+                    </div>
+                </a>
+
+            </div>
+
+            <!-- Load More Section -->
+            <!-- <div class="work-page__load-more">
+                <button class="button button--primary">Meer Projecten Laden</button>
+                <p class="work-page__count">Showing 9 of 15+ projects</p>
+            </div> -->
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Leon Smits.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About Me - Leon Smits</title>
+    <link rel="stylesheet" href="css/styles.css" />
+</head>
+
+<body>
+    <nav class="nav">
+        <div class="nav__container">
+            <a href="index.html" class="nav__logo">Leon Smits</a>
+            <button class="nav__hamburger" aria-label="Menu" aria-controls="primary-navigation" aria-expanded="false">
+                <span class="nav__hamburger-bar"></span>
+                <span class="nav__hamburger-bar"></span>
+                <span class="nav__hamburger-bar"></span>
+            </button>
+            <ul class="nav__menu" id="primary-navigation">
+                <li class="nav__item"><a href="index.html" class="nav__link">Home</a></li>
+                <li class="nav__item"><a href="about.html" class="nav__link nav__link--active">About Me</a></li>
+                <li class="nav__item"><a href="work.html" class="nav__link">My Work</a></li>
+                <li class="nav__item"><a href="contact.html" class="nav__link">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main class="about">
+        <div class="container about__layout">
+            <div class="about__image-wrapper">
+                <img class="about__image" src="./assets/images/portfolio-profile-picture.webp"
+                    alt="Portrait of Leon Smits" />
+            </div>
+            <div class="about__content">
+                <h1 class="about__title">About me</h1>
+                <p class="about__text">
+                    I help brands and organizations create strong visual identities and
+                    user-friendly digital experiences.
+                    My background in both graphic design and web development allows me to not only design concepts,
+                    but also implement them in a pixel-perfect way in the browser.
+                </p>
+                <p class="about__text">
+                    I believe in simplicity, consistency and attention to detail. Whether it's a logo, a complete
+                    brand identity or a custom website:
+                    I work in a structured, transparent manner with a focus on quality.
+                </p>
+                <div class="about__buttons">
+                    <a href="work.html" class="button button--primary">View Work</a>
+                    <a href="contact.html" class="button button--secondary">Get In Touch</a>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <section class="tools">
+        <div class="container">
+            <div class="tools__card">
+                <h2 class="tools__title">Tools</h2>
+                <div class="tools__graphic-design">
+                    <h3>Graphic Design</h3>
+                    <ul class="tools__list">
+                        <li class="tools__item" data-tool="photoshop">Adobe Photoshop</li>
+                        <li class="tools__item" data-tool="illustrator">Adobe Illustrator</li>
+                        <li class="tools__item" data-tool="indesign">Adobe InDesign</li>
+                        <li class="tools__item" data-tool="figma">Figma</li>
+                    </ul>
+                </div>
+                <div class="tools__web-development">
+                    <h3>Web Development</h3>
+                    <ul class="tools__list">
+                        <li class="tools__item" data-tool="html">HTML</li>
+                        <li class="tools__item" data-tool="css">CSS</li>
+                        <li class="tools__item" data-tool="javascript">JavaScript</li>
+                        <li class="tools__item" data-tool="nodejs">Node.js</li>
+                        <li class="tools__item" data-tool="typescript">TypeScript</li>
+                        <li class="tools__item" data-tool="react">React</li>
+                        <li class="tools__item" data-tool="nextjs">Next.js</li>
+                        <li class="tools__item" data-tool="laravel">Laravel</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <p class="footer__text">&copy; 2025 Leon Smits.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

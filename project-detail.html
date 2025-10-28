@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title id="page-title">Project Title - Leon Smits</title>
+    <link rel="stylesheet" href="css/styles.css" />
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="nav">
+        <div class="nav__container">
+            <a href="index.html" class="nav__logo">Leon Smits</a>
+            <button class="nav__hamburger" aria-label="Menu" aria-controls="primary-navigation" aria-expanded="false">
+                <span class="nav__hamburger-bar"></span>
+                <span class="nav__hamburger-bar"></span>
+                <span class="nav__hamburger-bar"></span>
+            </button>
+            <ul class="nav__menu" id="primary-navigation">
+                <li class="nav__item"><a href="index.html" class="nav__link">Home</a></li>
+                <li class="nav__item"><a href="about.html" class="nav__link">About Me</a></li>
+                <li class="nav__item"><a href="work.html" class="nav__link nav__link--active">My Work</a></li>
+                <li class="nav__item"><a href="contact.html" class="nav__link">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <header class="page-header">
+        <div class="container">
+            <h1 class="page-header__title" id="project-title">Project Title</h1>
+            <p class="page-header__subtitle" id="project-subtitle">Brief explanation about the project in one or two
+                sentences.</p>
+        </div>
+    </header>
+
+    <!-- Project Detail -->
+    <main class="project-detail">
+        <div class="container">
+            <section class="project-detail__gallery">
+                <h2 class="section__title">Images</h2>
+                <div class="project-detail__gallery-grid" id="gallery-grid">
+                    <!-- Images will be loaded dynamically -->
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Leon Smits.</p>
+        </div>
+    </footer>
+
+    <!-- Lightbox Modal -->
+    <div class="lightbox" id="lightbox">
+        <button class="lightbox__close" id="lightbox-close" aria-label="Close">×</button>
+        <button class="lightbox__nav lightbox__nav--prev" id="lightbox-prev" aria-label="Previous image">‹</button>
+        <div class="lightbox__content">
+            <img class="lightbox__image" id="lightbox-image" src="" alt="">
+        </div>
+        <button class="lightbox__nav lightbox__nav--next" id="lightbox-next" aria-label="Next image">›</button>
+        <div class="lightbox__counter" id="lightbox-counter">1 / 1</div>
+    </div>
+
+    <script src="script.js"></script>
+    <script src="project-loader.js"></script>
+</body>
+
+</html>
