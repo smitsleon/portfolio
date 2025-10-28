@@ -112,9 +112,9 @@
         "category": "graphic",
         "description": "Vul hier een korte beschrijving in (context, doel en jouw rol).",
         "images": [
-          "assets/images/graphic-design/humboldt-honing/mockup-pot.png",
-          "assets/images/graphic-design/humboldt-honing/mockup-strandstoel.png",
-          "assets/images/graphic-design/humboldt-honing/sokken-mockup.png"
+          "assets/images/graphic-design/humboldt-honing/mockup-pot.webp",
+          "assets/images/graphic-design/humboldt-honing/mockup-strandstoel.webp",
+          "assets/images/graphic-design/humboldt-honing/sokken-mockup.webp"
         ]
       },
       {
@@ -177,14 +177,14 @@
         "category": "graphic",
         "description": "Vul hier een korte beschrijving in (context, doel en jouw rol).",
         "images": [
-          "assets/images/graphic-design/graduaat-programmeren/finale-poster-wit.png",
-          "assets/images/graphic-design/graduaat-programmeren/finale-poster-zwart.png",
-          "assets/images/graphic-design/graduaat-programmeren/flyer-back.png",
-          "assets/images/graphic-design/graduaat-programmeren/flyer-front.png",
-          "assets/images/graphic-design/graduaat-programmeren/mockup-flyer-1.png",
-          "assets/images/graphic-design/graduaat-programmeren/mockup-flyer-3.png",
-          "assets/images/graphic-design/graduaat-programmeren/mockup-poster-2.png",
-          "assets/images/graphic-design/graduaat-programmeren/mockup-poster-3.png"
+          "assets/images/graphic-design/graduaat-programmeren/finale-poster-wit.webp",
+          "assets/images/graphic-design/graduaat-programmeren/finale-poster-zwart.webp",
+          "assets/images/graphic-design/graduaat-programmeren/flyer-back.webp",
+          "assets/images/graphic-design/graduaat-programmeren/flyer-front.webp",
+          "assets/images/graphic-design/graduaat-programmeren/mockup-flyer-1.webp",
+          "assets/images/graphic-design/graduaat-programmeren/mockup-flyer-3.webp",
+          "assets/images/graphic-design/graduaat-programmeren/mockup-poster-2.webp",
+          "assets/images/graphic-design/graduaat-programmeren/mockup-poster-3.webp"
         ]
       },
       {
